@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins/Poppins-Medium.ttf);
+}
+
+/* base landing page */
+#base{
+    /* background-color: bisque; */
+    background-image: url("bg.jpeg");
+    padding-bottom: 100%;
+}
+#base .kotak{
+    background-color: rgba(177, 177, 177, 0.74);
+    height: auto;
+    padding-bottom: 38px;
+    border-radius: 20px;
+}
+#base .btn{
+    background-color: rgb(59, 59, 59);
+    border: none;
+    border-radius: 16px;
+    width: 187px;
+    height: 187px;
+    margin-left: 50px;
+}
+#base .btn1 img{
+    margin-top: 40px;
+    width: 70px;
+}
+#base .btn2 img{
+    margin-top: 35px;
+    width: 60px;
+}
+#base .btn3 img{
+    margin-top: 40px;
+    width: 70px;
+}
+#base .wadah1{
+    background-color: rgb(59, 59, 59);
+    border-radius: 16px;
+    width: auto;
+    height: 187px;
+    color: white;
+    text-align: center;
+    margin-right: 50px;
+}
+#base .wadah2{
+    background-color: rgb(59, 59, 59);
+    border-radius: 16px;
+    width: auto;
+    height: 400px;
+    color: white;
+    text-align: center;
+    margin-right: 50px;
+}
