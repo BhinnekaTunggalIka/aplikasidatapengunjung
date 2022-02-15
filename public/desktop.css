@@ -1,0 +1,115 @@
+
+@font-face {
+    font-family: "Poppins";
+    src: url(./fonts/Poppins/Poppins-Medium.ttf);
+}
+
+/* base landing page */
+#base{
+    /* background-color: bisque; */
+    background-image: url("bg.jpeg");
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+#base .kotak{
+    background-color: rgba(177, 177, 177, 0.74);
+    height: auto;
+    padding-bottom: 38px;
+    border-radius: 20px;
+}
+#base .btn{
+    background-color: rgb(59, 59, 59);
+    border: none;
+    border-radius: 16px;
+    width: 187px;
+    height: 187px;
+    margin-left: 50px;
+}
+#base .btn1 img{
+    margin-top: 40px;
+    width: 70px;
+}
+#base .btn2 img{
+    margin-top: 35px;
+    width: 60px;
+}
+#base .btn3 img{
+    margin-top: 40px;
+    width: 70px;
+}
+#base .wadah1{
+    background-color: rgb(59, 59, 59);
+    border-radius: 16px;
+    width: auto;
+    height: 187px;
+    color: white;
+    text-align: center;
+    margin-right: 50px;
+}
+#base .wadah1 .text1 h2{
+    font-size: 53px;
+}
+#base .wadah2{
+    background-color: rgb(59, 59, 59);
+    border-radius: 16px;
+    width: auto;
+    height: 400px;
+    color: white;
+    text-align: center;
+    margin-right: 50px;
+}
+#base .wadah2 .text1 h2{
+    padding-right: 200px;
+    font-size: 25px;
+}
+
+/* Base2 */
+#base2 .wadahluar{
+    background-color: rgba(128, 128, 128, 0.6);
+    height: 632px;
+    width: auto;
+    padding: 38px;
+    margin-top: 84px;
+    border-radius: 16px;
+}
+#base2 .wadahluar .btn-primary{
+    height: 165px;
+    width: 245px;
+    border-radius: 16px;
+}
+#base2 .btnadd img{
+    margin-top: 5px;
+    margin-bottom: 14px;
+    width: 75px;
+}
+#base2 .title{
+    background-color: blanchedalmond;
+    height: 165px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    align-self: center;
+}
+#base2 .btn-success{
+    margin-top: 31px;
+    height: 165px;
+    width: 245px;
+    border-radius: 16px;
+}
+#base2 .btnbook img{
+    margin-top: 5px;
+    margin-bottom: 14px;
+    width: 61px;
+}
+#base2 .btn-danger{
+    margin-top: 31px;
+    height: 165px;
+    width: 245px;
+    border-radius: 16px;
+}
+#base2 .btnid img{
+    margin-top: 10px;
+    margin-bottom: 14px;
+    width: 75px;
+}
