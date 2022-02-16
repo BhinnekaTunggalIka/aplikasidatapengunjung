@@ -1,16 +1,16 @@
 <template>
     <div class="landingpage">
-        <Base2/>
+        <Base/>
     </div>
 </template>
 
 <script>
-import Base2 from '@/components/Base2.vue'
+import Base from '@/components/Base.vue'
 
 export default {
     name:'LandingPage',
     components: {
-    Base2,
+    Base,
     }
 }
 </script>

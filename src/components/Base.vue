@@ -1,117 +1,125 @@
 <template>
   <section id="base">
     <div class="container">
-      <div class="row">
-        <!-- trick -->
-      </div>
-      <div class="kotak pt-4 mt-5">
+      <div class="wadahluar">
         <div class="row">
           <div class="col-lg-3">
-            <div class="btn1">
-              <a href="#" class="btn btn-primary"
-                ><img src="../assets/add.png" alt="add img" /><span
-                  ><br /><br />Daftar Tamu</span
-                ></a
-              >
+            <div class="btnadd">
+              <a href="#">
+                <button type="button" class="btn btn-primary">
+                  <img
+                    src="../assets/pertamina-patra-niaga.png"
+                    alt="add img"
+                  />
+                </button>
+              </a>
             </div>
           </div>
-          <div class="col-lg-9">
-            <div class="wadah1">
-              <div class="text1">
-                <h2>
-                  <b><br />Buku Tamu Digital</b>
-                </h2>
-              </div>
+          <div class="col">
+            <div class="title">
+              <h1><b>Buku Tamu Digital</b></h1>
             </div>
           </div>
         </div>
-        <div class="row mt-4">
+        <div class="row">
           <div class="col-lg-3">
-            <div class="btn2">
-              <a href="#" class="btn btn-primary"
-                ><img src="../assets/book.png" alt="book img" /><span
-                  ><br /><br />Isi Buku Tamu</span
-                ></a
-              >
+            <div class="btnbook">
+              <a href="#/visitorbook">
+                <button type="button" class="btn btn-success">
+                  <img src="../assets/book.png" alt="book img" /><br /><b
+                    >Isi Buku Tamu</b
+                  >
+                </button>
+              </a>
             </div>
-            <div class="btn3 mt-4">
-              <a href="#" class="btn btn-primary"
-                ><img src="../assets/id.png" alt="id img" /><span
-                  ><br /><br />Ambil Tanda Pengenal</span
-                ></a
-              >
+            <div class="btnid">
+              <a href="#/checkout">
+                <button type="button" class="btn btn-danger">
+                  <img src="../assets/id.png" alt="id img" /><br /><b
+                    >Ambil Tanda Pengenal</b
+                  >
+                </button>
+              </a>
             </div>
           </div>
-          <div class="col-lg-9">
-            <div class="wadah2">
-              <div class="text1">
-                <h2><b>Visi dan Misi</b></h2>
+          <div class="col carousel">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
               </div>
-              <div class="content1">
-                <div
-                  id="carouselExampleIndicators"
-                  class="carousel slide"
-                  data-bs-ride="carousel"
-                >
-                  <div class="carousel-indicators">
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="0"
-                      class="active"
-                      aria-current="true"
-                      aria-label="Slide 1"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="1"
-                      aria-label="Slide 2"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="2"
-                      aria-label="Slide 3"
-                    ></button>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../assets/carousel1.jpg" class="d-block w-100" />
+                  <div class="layer">
+                    <h2>
+                      <b><br />Selamat Datang</b>
+                    </h2>
+                    <h1>di <b>Pertamina Patra Niaga</b></h1>
+                    <h1><b>Regional Sumbagsel</b></h1>
                   </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="../assets/carousel1.jpeg" class="d-block w-100" alt="carousel img 1" />
-                    </div>
-                    <div class="carousel-item">
-                      <img src="../assets/carousel2.jpeg" class="d-block w-100" alt="carousel img 2" />
-                    </div>
-                    <div class="carousel-item">
-                      <img src="../assets/carousel3.jpeg" class="d-block w-100" alt="carousel img 3" />
-                    </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../assets/carousel2.jpeg" class="d-block w-100" />
+                  <div class="layer">
+                    <h2>
+                      <b><br />Visi</b>
+                    </h2>
+                    <h1>Menjadi perusahaan <b>energi</b></h1>
+                    <h1>nasional tingkat <b>dunia</b></h1>
                   </div>
-                  <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev"
-                  >
-                    <span
-                      class="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next"
-                  >
-                    <span
-                      class="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                </div>
+                <div class="carousel-item">
+                  <img src="../assets/carousel3.jpeg" class="d-block w-100" />
+                  <div class="layer">
+                    <h2><b>Misi</b></h2>
+                    <h1>Menjalankan usaha <b>minyak</b>, <b>gas</b>, serta</h1>
+                    <h1><b>energi baru</b> dan <b>terbarukan</b> secara</h1>
+                    <h1><b>terintegrasi</b>, berdasarkan prinsi-prinsip</h1>
+                    <h1>komersial yang <b>kuat</b></h1>
+                  </div>
                 </div>
               </div>
+
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <i class="fas fa-arrow-circle-left btnleft"></i>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <i class="fas fa-arrow-circle-right btnright"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -122,7 +130,7 @@
 
 <script>
 export default {
-  name: "Base"
+  name: "Base",
 };
 </script>
 
