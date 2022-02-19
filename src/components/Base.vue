@@ -24,7 +24,7 @@
         <div class="row">
           <div class="col-lg-3">
             <div class="btnbook">
-              <a href="#/visitorbook">
+              <a href="#/regist">
                 <button type="button" class="btn btn-success">
                   <img src="../assets/book.png" alt="book img" /><br /><b
                     >Isi Buku Tamu</b

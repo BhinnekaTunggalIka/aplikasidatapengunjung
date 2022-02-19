@@ -1,13 +1,16 @@
 <template>
     <div class="regist">
-        <h1>tes regist tamu baru</h1>
+        <Base2/>
     </div>
 </template>
 
 <script>
-
+import Base2 from '@/components/Base2.vue'
 
 export default {
     name:'Regist',
+    components: {
+    Base2
+    }
 }
 </script>

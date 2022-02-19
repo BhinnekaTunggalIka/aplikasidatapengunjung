@@ -147,4 +147,49 @@
         margin-left: 55px;
         margin-bottom: 34px;
     }
+
+    /* Base2 */
+    #base2 {
+        /* background-image: url(bg1.jpeg); */
+        padding-top: 20px;
+        padding-bottom: 85px;
+        border-image-width: 100%;
+    }
+
+    #base2 .wadahluar {
+        /* background-color: rgba(128, 128, 128, 0.6); */
+        height: 632px;
+        width: auto;
+        padding: 38px;
+        margin-top: 84px;
+        border-radius: 16px;
+    }
+    
+    #base2 .wadahkiri {
+        height: 360px;
+        border-radius: 16px;
+        margin-top: 31px;
+        margin-left: 12px;
+    }
+
+    #base2 .vr {
+        outline-style: solid;
+        size: 20px;
+        color: black;
+    }
+
+    #base2 .title {
+        background-color: #32599C;
+        height: 165px;
+        border-radius: 16px;
+        text-align: center;
+        font-weight: 600;
+        align-self: center;
+    }
+
+    #base2 .title h1 {
+        padding-top: 52.5px;
+        color: white;
+        font-size: 50px;
+    }
 }
