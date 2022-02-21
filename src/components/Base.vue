@@ -5,14 +5,9 @@
         <div class="row">
           <div class="col-lg-3">
             <div class="btnadd">
-              <a href="#">
-                <button type="button" class="btn btn-primary">
-                  <img
-                    src="../assets/pertamina-patra-niaga.png"
-                    alt="add img"
-                  />
-                </button>
-              </a>
+              <button type="button" class="btn btn-primary">
+                <img src="../assets/pertamina-patra-niaga.png" alt="add img" />
+              </button>
             </div>
           </div>
           <div class="col">

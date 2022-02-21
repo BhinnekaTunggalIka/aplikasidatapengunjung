@@ -10,9 +10,18 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-3 wadahkiri">
+          <div class="col-auto wadahkiri">
             <h3>Masukkan ID Visitor</h3>
-            <button type="button" class="btn btn-success">Selesai</button>
+
+            <label for="inputIDVisitor" class="visually-hidden">Password</label>
+            <input
+              type="integer"
+              class="form-control"
+              id="inputIDVisitor"
+              placeholder="007"
+            />
+
+            <button type="submit" class="btn btn-success">Konfirmasi</button>
           </div>
           <div class="col carousel">
             <div
@@ -48,9 +57,9 @@
                   <img src="../assets/carousel1.jpg" class="d-block w-100" />
                   <div class="layer">
                     <h2>
-                      <b><br />Selamat Datang</b>
+                      <b><br />Terima Kasih</b>
                     </h2>
-                    <h1>di <b>Pertamina Patra Niaga</b></h1>
+                    <h1>Telah Berkunjung di <b>Pertamina Patra Niaga</b></h1>
                     <h1><b>Regional Sumbagsel</b></h1>
                   </div>
                 </div>
