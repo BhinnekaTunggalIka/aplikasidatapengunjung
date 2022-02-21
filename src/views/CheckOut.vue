@@ -1,13 +1,16 @@
 <template>
     <div class="checkout">
-        <h1>tes Check-Out</h1>
+        <Base3/>
     </div>
 </template>
 
 <script>
-
+import Base3 from '@/components/Base3.vue'
 
 export default {
     name:'CheckOut',
+    components: {
+        Base3
+    }
 }
 </script>

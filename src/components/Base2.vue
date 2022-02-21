@@ -62,17 +62,21 @@
               </div>
             </form>
           </div>
-          <div class="col-lg-1 mt-3">
+          <div class="col-sm-1 mt-3">
             <div class="d-flex garis" style="height: 400px">
               <div class="vr"></div>
             </div>
           </div>
-            <div class="col-lg-1 ">
-              <button type="button" class="btn btn-secondary">Secondary</button>
-            </div>
+          <div class="col-sm-3 wadahkanan">
+            <i class="fa-solid fa-camera"></i>
+            <a href="" class="ulangi">Ulangi</a>
+            <br><br>
+            <a href="#/"><button type="button" class="btn btn-success">Ambil Foto</button></a>
+            <a href="#/"><button type="button" class="btn btn-danger">Home</button></a>
           </div>
         </div>
       </div>
+    </div>
   </section>
 </template>
 
