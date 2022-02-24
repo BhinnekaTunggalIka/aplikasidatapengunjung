@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+    @font-face {
+        font-family: "Poppins";
+        src: url(./fonts/Poppins/Poppins-Medium.ttf);
+    }
+
+    /* Base */
+    #base {
+        background-image: url(bg1.jpeg);
+        padding-top: 5px;
+        padding-bottom: 80px;
+    }
+
+    #base .wadahluar {
+        background-color: rgba(128, 128, 128, 0.6);
+        height: 632px;
+        width: auto;
+        padding: 38px;
+        margin-top: 40px;
+        border-radius: 16px;
+    }
+
+    #base .wadahluar .btn-primary {
+        height: 165px;
+        width: 245px;
+        border-radius: 16px;
+        background-color: white;
+        border: none;
+    }
+
+
+    #base .title {
+        background-color: #32599C;
+        height: 120px;
+        border-radius: 16px;
+        text-align: center;
+        font-weight: 600;
+        align-self: center;
+    }
+
+    #base .title h1 {
+        padding-top: 33.5px;
+        color: white;
+        font-family: 'poppins';
+    }
+}
