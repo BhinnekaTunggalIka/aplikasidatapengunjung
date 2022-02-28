@@ -3,10 +3,18 @@
     <div class="container">
       <div class="wadahluar">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-3 col-3">
             <div class="btnadd">
-              <button type="button" class="btn btn-primary">
-                <img src="../assets/pertamina-patra-niaga.png" alt="add img" />
+              <button
+                type="button"
+                class="btn btn-primary"
+                style="max-width: 100%"
+              >
+                <img
+                  src="../assets/pertamina-patra-niaga.png"
+                  alt="add img"
+                  style="max-width: 50%"
+                />
               </button>
             </div>
           </div>
@@ -17,22 +25,36 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-3 col-3">
             <div class="btnbook">
               <a href="#/regist">
-                <button type="button" class="btn btn-success">
-                  <img src="../assets/book.png" alt="book img" /><br /><b
-                    >Isi Buku Tamu</b
-                  >
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  style="max-width: 100%"
+                >
+                  <img
+                    src="../assets/book.png"
+                    alt="book img"
+                    style="max-width: 40%"
+                  />
+                  <div class="text"><b>Isi Buku Tamu</b></div>
                 </button>
               </a>
             </div>
             <div class="btnid">
               <a href="#/checkout">
-                <button type="button" class="btn btn-danger">
-                  <img src="../assets/id.png" alt="id img" /><br /><b
-                    >Ambil Tanda Pengenal</b
-                  >
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  style="max-width: 100%"
+                >
+                  <img
+                    src="../assets/id.png"
+                    alt="id img"
+                    style="max-width: 40%"
+                  />
+                  <div class="text"><b>Ambil Tanda Pengenal</b></div>
                 </button>
               </a>
             </div>

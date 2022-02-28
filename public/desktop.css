@@ -12,6 +12,7 @@
         border-image-width: 100%;
     }
 
+
     #base .wadahluar {
         background-color: rgba(128, 128, 128, 0.6);
         height: 632px;
@@ -22,6 +23,7 @@
     }
 
     #base .wadahluar .btn-primary {
+        position: absolute;
         height: 165px;
         width: 245px;
         border-radius: 16px;
@@ -32,7 +34,6 @@
     #base .btnadd img {
         margin-bottom: 5px;
         height: 120px;
-        width: auto;
     }
 
     #base .title {
