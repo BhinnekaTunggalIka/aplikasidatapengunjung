@@ -14,12 +14,13 @@
 
 
     #base .wadahluar {
-        background-color: rgba(128, 128, 128, 0.6);
+        background-color: rgba(161, 161, 161, 0.4);
         height: 632px;
         width: auto;
         padding: 38px;
         margin-top: 84px;
         border-radius: 16px;
+        backdrop-filter: blur(3.5px);
     }
 
     #base .wadahluar .btn-primary {

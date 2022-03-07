@@ -10,7 +10,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-auto wadahkiri">
+          <div class="col-md-4 wadahkiri">
             <h3>Masukkan ID Visitor</h3>
 
             <label for="inputIDVisitor" class="visually-hidden">Password</label>

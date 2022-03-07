@@ -180,5 +180,59 @@
     }
 
     /* Base3 */
+    #base3 {
+        background-image: url(bg1.jpeg);
+        padding-top: 5px;
+        padding-bottom: 28px;
+    }
+
+    #base3 .wadahluar {
+        background-color: rgba(128, 128, 128, 0.6);
+        height: auto;
+        width: auto;
+        padding: 28px;
+        margin-top: 20px;
+        border-radius: 16px;
+    }
+
+    #base3 .title {
+        background-color: #32599C;
+        height: 80px;
+        border-radius: 16px;
+        text-align: center;
+        align-self: center;
+    }
+
+    #base3 .title h1 {
+        padding-top: 25.5px;
+        color: white;
+        font-family: 'Poppins';
+        font-size: 35px;
+    }
+
+    #base3 .wadahkiri {
+        margin-left: 12px;
+        height: 220px;
+        width: auto;
+        border-radius: 16px;
+        background-color: whitesmoke;
+        border: none;
+    }
+
+    #base3 h3 {
+        text-align: center;
+        margin-top: 40px;
+        font-family: 'Poppins';
+        font-size: 15px;
+    }
+
+    #base3 .form-control {
+        margin-top: 31px;
+        border-radius: 10px;
+        text-align: center;
+        max-width: 90%;
+        margin-left: 10px;
+    }
+
 
 }
