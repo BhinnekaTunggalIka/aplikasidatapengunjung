@@ -1,0 +1,24 @@
+@media (min-width: 360px) and (max-width:375) {
+    @font-face {
+        font-family: "Poppins";
+        src: url(./fonts/Poppins/Poppins-Medium.ttf);
+    }
+
+    /* Base */
+    #base {
+        background-image: url(bg1.jpeg);
+        padding-top: 5px;
+        padding-bottom: 28px;
+    }
+
+    #base .wadahluar {
+        background-color: rgba(128, 128, 128, 0.6);
+        height: auto;
+        width: auto;
+        padding: 28px;
+        margin-top: 20px;
+        border-radius: 16px;
+    }
+
+
+}
