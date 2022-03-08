@@ -74,9 +74,7 @@
         font-weight: 300;
     }
 
-    #base .carousel {
-        /* margin-top: 5.5px; */
-    }
+
 
     #base .carousel-inner img {
         width: 875px;
@@ -233,3 +231,4 @@
         max-width: 90%;
         margin-left: 10px;
     }
+}
